@@ -1,0 +1,68 @@
+### Project Documentation Contents
+
+#### Title Page
+- Name of the faculty, department, and course.
+- Student’s full name.
+- Student index number.
+- Project title.
+- Submission date.
+
+#### Table of Contents
+- An automated or manually entered list of chapters and subchapters with page numbers.
+
+### 1. Introduction
+- Description of the project topic.
+- Project goals and functionalities to be implemented.
+- Brief overview of the technologies and tools to be used.
+
+### 2. System Planning and Design
+#### 2.1. Requirements Definition
+- Functional requirements: What the system enables for users and administrators.
+
+#### 2.2. Use-Case Diagrams
+- Representation of actors and use cases.
+- Brief description of the diagrams.
+
+### 3. User Interface (UI) Development
+#### 3.1. Description of Styling Technologies
+- Selection of technology (e.g., CSS, Tailwind CSS, Styled Components) and the reason for the choice.
+
+#### 3.2. Key Pages Overview
+- **Homepage:** Description and screenshot.
+- **Registration and Login Pages:** Description and screenshot.
+- **Data View and Manipulation Pages:** Description and screenshot.
+- **Administrative Panel:** Description and screenshot.
+
+### 4. Functionality Implementation
+#### 4.1. User Functionalities
+- User registration and login (description with code).
+- Data viewing and interaction (description with code).
+- Adding, deleting, and/or updating data (description with code).
+
+#### 4.2. Administrative Functionalities
+- Adding new elements.
+- Updating existing elements.
+- Deleting data.
+
+### 5. Backend Simulation
+#### 5.1. Using `json-server` (if used)
+- Description of the `json-server` tool and its setup.
+- Example of a JSON file with data.
+
+#### 5.2. Frontend and Backend Integration
+- API calls used (GET, POST, PUT, DELETE).
+- Code examples for each API call.
+
+#### 5.3. Alternative Technologies
+- If a different backend technology was used, describe the reasoning and implementation.
+
+### 7. Conclusion
+- Summary of achieved results.
+- Challenges and obstacles encountered during the project.
+- Potential future improvements for the application.
+
+### 8. Appendices
+- Link to the project’s GitHub repository.
+
+**Note:**  
+The text of the document should be technically precise, written in the third person singular, and include enough detail to demonstrate knowledge and understanding of the project.

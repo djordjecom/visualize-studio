@@ -1,0 +1,135 @@
+﻿"Faculty of Information Technology  
+Information Technology Department  
+
+**VISUALIZE STUDIO**  
+Project Assignment - React Application Development  
+IT354 - Web Systems 1  
+
+**Student:** Đorđe Njagulović 5549  
+**Professor:** Mladen Opačić  
+**Assistant:** Miloš Milašinović  
+
+---
+
+**To the AI agent:** Currently, only points 1 and 2 are developed in this document. The rest will be developed within our chat, after you thoroughly understand this. Send me the message ‘Djordje’ in the chat if you understand.
+
+---
+
+### I. Introduction  
+This year, the project assignment for the Web Systems 1 course sparked a unique motivation in me, leading to a somewhat unconventional objective. Having worked intensively in the E-Commerce sector over the past one to two years alongside my academic pursuits—specifically with various brands selling products in markets like the United States and the Emirates—I identified a critical problem I could solve for them. My goal is to merge and apply my E-Commerce expertise with the knowledge I’ve gained in web development.  
+
+**The Problem:**  
+Brands spend between $100,000 and $1,000,000 annually on product photography and visualization. When you factor in the time needed for a single photoshoot session, logistics—including studio rental, equipment, photographers, models, and scheduling—this represents a significant challenge for companies. Additionally, all this content requires post-processing, editing, and other modifications. In short, while this method is proven to work, it is far from efficient.  
+
+After identifying this problem, an idea was born in me: a way to eliminate the inefficiencies of product visualization entirely. An application capable of generating professional product photos in various settings within minutes—a process that traditionally takes months.  
+
+**Objective:**  
+The primary goal of this application is straightforward yet challenging to implement: to enable e-commerce brands to produce product visualizations quickly and efficiently, significantly speeding up the development process. Enhancing efficiency here does not merely mean saving time; it also reduces the cost-time relationship by completely eliminating the logistical requirements of traditional product photo development.  
+
+All the user needs is a few reasonably high-quality photos of their product, and the application will handle the rest.  
+
+---
+
+### Technology  
+**Frontend:**  
+The frontend will utilize React, the technology we studied throughout the semester. Styling will be handled using {CSS Technology}. {Further description of the CSS framework}.  
+
+The application will also implement two types of functionalities: administrative and user functionalities.  
+
+**Backend:**  
+On the backend side, we will simulate operations using {Backend tech}. {Further description}.  
+
+However, the cornerstone of this application is Generative Artificial Intelligence (Generative AI). This technology will realize the primary purpose of the application: creating realistic product photos of very high, even professional quality.  
+
+**Flux AI Technology:**  
+The chosen technology for this task is Flux AI Image Generation, developed by Black Forest Labs.  
+
+---
+
+Flux AI emerged as a product of former Stability AI employees, the company responsible for the Stable Diffusion model—a powerful tool in the Generative AI field. Flux is a text-to-image model enabling image creation based on user text input. At the time of writing this documentation, Flux offers additional capabilities such as image-to-image (creating images from image input), image-to-video (converting images into videos), and more.  
+
+One key reason I chose Flux over other models is its precision and realism, areas in which this model currently excels. Realism refers to the ability to generate highly realistic photographs that look like actual photos (other models often generate illustrations or animations). Moreover, Flux’s ability to create readable and coherent text in images—an area where other models struggle—makes it the ideal choice for developing professional-quality product photos.  
+
+An additional motivation for selecting Flux AI came from learning that Elon Musk and his company X (Twitter) decided to implement this technology in their LLM, Grok, for generating images based on textual prompts. My hands-on experience with the Grok bot yielded highly satisfactory results.  
+
+Due to these features, I identified Flux AI as the most suitable technology for creating professional-quality product images.  
+
+---
+
+### II. System Planning and Design  
+
+#### 2.1 Requirement Definition  
+To develop the application, we first need to understand what it will do, defining its precise functionalities through functional requirements—what the system enables for users and administrators.  
+
+---
+
+#### **Functional Requirements**  
+
+**Regular User:**  
+1. Authentication:  
+   - Account registration (email, password).  
+   - Login/logout.  
+   - Password reset.  
+   - View/edit profile.  
+2. Project Management:  
+   - Create new projects.  
+   - Access the list of previous projects.  
+   - Delete projects.  
+   - Update project details.  
+3. Photo Manipulation:  
+   - Import original product photos.  
+   - Create initial text prompts for generation.  
+   - Refine generated photos interactively.  
+   - Save/download results.  
+   - Track evolution through modification chains.  
+4. Account Management:  
+   - View usage statistics.  
+   - Update account details.  
+
+**Administrator:**  
+1. User Management:  
+   - View all user accounts.  
+   - Enable/disable user accounts.  
+   - Review user activity.  
+   - Adjust user permissions.  
+2. System Monitoring:  
+   - View overall app usage statistics.  
+   - Monitor API usage/limits.  
+   - Manage storage allocation.  
+3. Content Management:  
+   - Review generated photos if needed.  
+   - Delete prohibited content.  
+   - Manage overall system storage.  
+
+---
+
+#### 2.1.1 MVP Development  
+The MVP will address the core issue: e-commerce owners need professional-quality product photos generated by AI. The foundational version of the app will feature:  
+
+1. **User Module:**  
+   - Login.  
+   - Upload product photos.  
+   - Text prompt input for AI.  
+   - AI-generated photo results.  
+   - Download options.  
+
+2. **Admin Module:**  
+   - Login.  
+   - View users.  
+   - View projects.  
+
+---
+
+#### 2.2 Use-Case Diagrams  
+
+The diagrams above detail workflows for both user and admin sides, explaining the application's operation visually.  
+
+**Core MVP Components:**  
+- Basic Pages (Home, Login/Register, Dashboard, Admin Panel).  
+- Essential User/Admin Features.  
+- React setup with Router for navigation.  
+- Backend simulation (TBD).  
+
+---
+
+**To the AI agent:** Your job is to help bring this idea to life. You are a proficient React developer and an exceptional teacher. You will compile all the necessary knowledge and principles, guiding me seamlessly through the development of this app. After messaging me ‘Djordje’ (my instruction), reply ‘Djole’ to confirm understanding of this document as well."

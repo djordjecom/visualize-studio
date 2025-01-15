@@ -1,0 +1,102 @@
+**Subject:** IT354 - Web Systems 1  
+**Project Assignment:** Development of a React Application  
+
+---
+
+### 1. **Project Objective**  
+Develop a complete CRUD web application using the React framework, implementing functionalities such as user registration, content browsing, interaction, and administrative data manipulation.  
+
+---
+
+### 2. **Project Description**  
+Student will develop a web application based on the following topic: A web app that leverages the API of a 
+certain text-to-image AI model, so that it can generate product images for e-commerce brands. The purpose of
+the app is to have brand owners load the app, import pictures of their product and then enter a textual prompt
+describing the photo they want. The AI then generates photos, which can be stored and downloaded within the user's account.
+The topic will be further expanded, as well as all the requirements and functionalities. 
+
+Every project must include:  
+- **Two actors** (e.g., User and Administrator for a store).  
+- **At least three entities** (e.g., Users, Items, etc.).  
+
+Additionally:  
+- The assistant will assign a specific unique functionality to each student, ensuring that all projects are distinct.  
+- To achieve the highest grade, students must use a library not covered in class (e.g., the `yup` library for input validation).  
+
+**Examples of Topics:**  
+- Online book exchange library.  
+- Expense tracking application.  
+- Sports reservation management system.  
+- Travel planning portal.  
+- Blogging platform with an administrative panel.  
+
+The application must be fully functional and meet the basic requirements of the selected topic.  
+
+**Grading:**  
+- A complete project developed using in-class technologies without the unique functionality earns **15 points**.  
+- Completing the assigned unique functionality adds **5 points**.  
+- Using an external library adds **5 points**, for a total of **25 points**.  
+
+---
+
+### 3. **Activities to be Completed and Documented**  
+The following activities must be implemented and documented in a report submitted along with the code:  
+
+#### 3.1. **System Planning and Design**  
+- Define functional and non-functional system requirements.  
+- Create use-case diagrams for users and administrators.  
+- Define the application architecture, including the structure of React components and state management.  
+
+#### 3.2. **User Interface (UI) Development**  
+- Use React for the frontend.  
+- Style the application using one of the following technologies:  
+  - CSS (modules, plain CSS, or Sass).  
+  - Styled Components.  
+  - Tailwind CSS.  
+  - Any other library of choice.  
+
+The application must include the following pages:  
+- Home page.  
+- User registration and login page.  
+- Data browsing page (e.g., lists of items, reservations, activities, etc., depending on the topic).  
+- Detailed view of an individual item with interaction options.  
+- Administrative panel for data manipulation.  
+
+#### 3.3. **Functionality Implementation**  
+- **User functionalities:**  
+  - User registration and login.  
+  - Route protection (e.g., unregistered users cannot access registered user routes, and registered users cannot access admin routes).  
+  - Viewing data lists with detailed views for each item.  
+  - Adding, deleting, or updating data (depending on the topic).  
+- **Administrative functionalities:**  
+  - Creating, updating, and deleting data.  
+  - Viewing user activities or entries.  
+
+#### 3.4. **Data and Backend Simulation**  
+- Simulate backend functionality using the `json-server` tool.  
+- Students familiar with other backend technologies (Node.js, Django, Laravel, etc.) can use them if desired.  
+
+#### 3.5. **Technical Requirements**  
+- The application **MUST** use the following libraries:  
+  - `React` (for component-based architecture).  
+  - `react-dom` (for web rendering).  
+  - `react-router` (for route management).  
+- The backend must be integrated with the application to enable dynamic data manipulation.  
+
+---
+
+### 4. **Project Submission Rules**  
+- Projects must be submitted as a React application hosted on a GitHub repository.  
+- The report must follow the project work content guidelines.  
+
+---
+
+### 5. **Submission Deadline**  
+- The project must be submitted no later than the end of the 15th week of classes.  
+
+---
+
+### **Additional Notes**  
+- The application must be functional to be graded.  
+- Students who submit the project early will receive bonus points for their proactivity.  
+- Project defense includes demonstrating functionality and answering questions from the teaching assistant.  
