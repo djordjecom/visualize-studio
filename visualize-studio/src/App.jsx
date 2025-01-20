@@ -6,9 +6,9 @@ import RegisterPage from './pages/auth/RegisterPage';
 import DashboardPage from './pages/dashboard/DashboardPage';
 import ProjectsPage from './pages/projects/ProjectsPage';
 import ProjectDetails from './pages/projects/ProjectDetails';
-import AdminDashboard from './pages/admin/AdminDashboard';
+// import AdminDashboard from './pages/admin/AdminDashboard';
 import ProtectedRoute from './components/common/ProtectedRoute';
-import AdminRoute from './components/common/AdminRoute';
+// import AdminRoute from './components/common/AdminRoute';
 
 function App() {
   return (
@@ -27,9 +27,9 @@ function App() {
         </Route>
 
         {/* Protected admin rute */}
-        <Route element={<AdminRoute />}>
+        {/*<Route element={<AdminRoute />}>
           <Route path="admin" element={<AdminDashboard />} />
-        </Route>
+        </Route> */}
       </Route>
     </Routes>
   );
